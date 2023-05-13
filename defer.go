@@ -4,7 +4,7 @@ import "fmt"
 
 func logging() {
 	message := recover()
-	if message != nil{
+	if message != nil {
 		fmt.Println("Error with message : ", message)
 	}
 	fmt.Println("Request function.")
@@ -18,6 +18,6 @@ func runApplication(error bool) {
 	fmt.Println("Application is success.")
 }
 
-func main(){
+func main() {
 	runApplication(true)
 }

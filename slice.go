@@ -39,7 +39,7 @@ func main() {
 
 	//Note:
 	//The different between array and slice is
-	//when u create like this way 
+	//when u create like this way
 	//variable := []int{12345} //This is an slice, because there is no value in bracket []
 	//variable := [...] or [5]int{123456} //This is an array, cause there is a value in bracket.
 }

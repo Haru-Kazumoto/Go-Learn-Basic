@@ -12,8 +12,11 @@ func registerUser(name string, blacklist Blacklist) {
 	}
 }
 
+/**
+hello
+*/
 func main() {
 	registerUser("User", func(name string) bool {
 		return name == "User"
-	})	
+	})
 }
