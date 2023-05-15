@@ -16,6 +16,17 @@ func print(i int) interface{} {
 	}
 }
 
+/**
+	Empty interface can be write like this
+	interface{} and any
+	both are same way, any is just representing interface{}
+
+	data = map[string]any / data = map[string]interface{}
+
+	when u want to set the data type explicitly without put data type in {}
+	you could use converting like variable = data.(int64)
+*/
+
 func main() {
 	//If you want to print the empty interface, you can only initialize the variable
 	//interface{} type, if you initialize other data type, it will error.
